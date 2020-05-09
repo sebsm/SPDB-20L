@@ -1,0 +1,10 @@
+library(fMultivar)
+full <- read_csv("CLIWOC15.csv")
+x <- c(1,2,NA,3)
+cliwoc[!complete.cases(cliwoc),]
+newdata <- na.omit(cliwoc)
+summary(cliwoc)
+summary(full)
+mydata_cliwoc <- na.omit(cliwoc)
+mydata_full <- na.omit(full)
+summary(mydata_cliwoc)
